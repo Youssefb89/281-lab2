@@ -1,0 +1,13 @@
+.main-title {
+    text-align: center;
+}
+
+.card {
+    background-color: #f0f8ff; /* This is the light blue color (AliceBlue) */
+    width: 270px;              /* Sets a fixed width so it looks like a box */
+    margin: 0 auto;            /* This magic trick centers the box horizontally */
+    padding: 20px;             /* Adds breathing room inside the box */
+    border-radius: 1px;       /* Rounds the corners */
+    text-align: center;        /* Centers all the text and buttons inside */
+    box-shadow: 0px 0px 15px gray; /* Adds that subtle shadow effect */
+}
