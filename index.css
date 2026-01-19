@@ -2,17 +2,17 @@
   display: none;
 }
 
-/*default: login screen only shows*/
+
 #login {
   display: block;
 }
 
-/*when URL is #todo (accessed only by clicking Log In buttons), show todo screen */
+
 #todo:target {
   display: block;
 }
 
-/*when todo is active, hide login*/
+
 #todo:target ~ #login {
   display: none;
 }
@@ -20,74 +20,74 @@
 .main-title {
     text-align: center;
     font-family: "Quicksand", sans-serif;
-    font-weight: 450;  /* Changed from 550 to 400 */
+    font-weight: 450;  
 }
 
 
 #top-login1 {
     position: absolute;
-    top: 0px;         /* Pulls it UP out of the box */
-    left: 41%;          /* Moves it to the middle */
+    top: 0px;         
+    left: 41%;          
 }
 
 
 #top-login2 {
     position: absolute;
-    top: 0px;         /* Pulls it UP out of the box */
-    left: 30%;          /* Moves it to the middle */
+    top: 0px;         
+    left: 30%;          
 }
 
-/* Fix 2: Apply the font to Labels and Inputs (they don't inherit by default!) */
+
 label, input {
     font-family: monospace;
     font-weight: 500;
 }
 
-/* Fix 3: Style the Placeholder (and fix the "weight" typo) */
+
 ::placeholder {
     font-size: 11px;
-    font-family: "Quicksand", sans-serif; /* Change this to your desired placeholder font */
-    font-weight: 400; /* You had "weight: bold", which is invalid syntax */
+    font-family: "Quicksand", sans-serif; 
+    font-weight: 400; 
     color: #888;
 }
 
-/* Fix 4: Fix the button typo */
+
 button, input[type="button"] {
     font-size: 11px;
-    font-weight: bold; /* Changed "weight" to "font-weight" */
+    font-weight: bold; 
 }
 
 .card {
-    background-color: #f0f8ff; /* This is the light blue color (AliceBlue) */
+    background-color: #f0f8ff; 
     position: relative;
-    width: 300px;              /* Sets a fixed width so it looks like a box */
-    margin: 0 auto;            /* This magic trick centers the box horizontally */
-    padding: 20px;             /* Adds breathing room inside the box */
-    border-radius: 3px;       /* Rounds the corners */
-    text-align: center;        /* Centers all the text and buttons inside */
-    box-shadow: 0px 0px 15px gray; /* Adds that subtle shadow effect */
+    width: 300px;              
+    margin: 0 auto;           
+    padding: 20px;             
+    border-radius: 3px;       
+    text-align: center;        
+    box-shadow: 0px 0px 15px gray; 
 }
 
 .card1{
-      background-color: #f0f8ff; /* This is the light blue color (AliceBlue) */
+      background-color: #f0f8ff; 
     position: relative;
-    width: 300px;              /* Sets a fixed width so it looks like a box */
-    margin: 0 auto;            /* This magic trick centers the box horizontally */
-    padding: 20px;             /* Adds breathing room inside the box */
-    border-radius: 3px;       /* Rounds the corners */
-    text-align: center;        /* Centers all the text and buttons inside */
-    box-shadow: 0px 0px 15px gray; /* Adds that subtle shadow effect */
+    width: 300px;              
+    margin: 0 auto;           
+    padding: 20px;            
+    border-radius: 3px;      
+    text-align: center;        
+    box-shadow: 0px 0px 15px gray; 
 }
 
 
 .card2{
- background-color: #f0f8ff; /* This is the light blue color (AliceBlue) */
-    width:  470px;              /* Sets a fixed width so it looks like a box */
-    margin: 0 auto;            /* This magic trick centers the box horizontally */
-    padding: 10px;             /* Adds breathing room inside the box */
-    border-radius: 3px;       /* Rounds the corners */
-    text-align: center;        /* Centers all the text and buttons inside */
-    box-shadow: 0px 0px 15px gray; /* Adds that subtle shadow effect */
+ background-color: #f0f8ff; 
+    width:  470px;              
+    margin: 0 auto;           
+    padding: 10px;             
+    border-radius: 3px;      
+    text-align: center;       
+    box-shadow: 0px 0px 15px gray; 
 }
 
 
