@@ -23,17 +23,6 @@
     font-weight: 450;  /* Changed from 550 to 400 */
 }
 
-.card {
-    background-color: #f0f8ff; /* This is the light blue color (AliceBlue) */
-    position: relative;
-    width: 300px;              /* Sets a fixed width so it looks like a box */
-    margin: 0 auto;            /* This magic trick centers the box horizontally */
-    text-align: left;
-    padding: 20px;             /* Adds breathing room inside the box */
-    border-radius: 3px;       /* Rounds the corners */
-    text-align: center;        /* Centers all the text and buttons inside */
-    box-shadow: 0px 0px 15px gray; /* Adds that subtle shadow effect */
-}
 
 #top-login {
     position: absolute;
@@ -61,4 +50,29 @@ button, input[type="button"] {
     font-size: 11px;
     font-weight: bold; /* Changed "weight" to "font-weight" */
 }
+
+.card {
+    background-color: #f0f8ff; /* This is the light blue color (AliceBlue) */
+    position: relative;
+    width: 300px;              /* Sets a fixed width so it looks like a box */
+    margin: 0 auto;            /* This magic trick centers the box horizontally */
+    text-align: left;
+    padding: 20px;             /* Adds breathing room inside the box */
+    border-radius: 3px;       /* Rounds the corners */
+    text-align: center;        /* Centers all the text and buttons inside */
+    box-shadow: 0px 0px 15px gray; /* Adds that subtle shadow effect */
+}
+
+.card1{
+      background-color: #f0f8ff; /* This is the light blue color (AliceBlue) */
+    position: relative;
+    width: 300px;              /* Sets a fixed width so it looks like a box */
+    margin: 0 auto;            /* This magic trick centers the box horizontally */
+    text-align: left;
+    padding: 20px;             /* Adds breathing room inside the box */
+    border-radius: 3px;       /* Rounds the corners */
+    text-align: center;        /* Centers all the text and buttons inside */
+    box-shadow: 0px 0px 15px gray; /* Adds that subtle shadow effect */
+}
+
 
