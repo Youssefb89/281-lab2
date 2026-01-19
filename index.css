@@ -1,5 +1,26 @@
+.screen {
+  display: none;
+}
+
+/*default: login screen only shows*/
+#login {
+  display: block;
+}
+
+/*when URL is #todo (accessed only by clicking Log In buttons), show todo screen */
+#todo:target {
+  display: block;
+}
+
+/*when todo is active, hide login*/
+#todo:target ~ #login {
+  display: none;
+}
+
 .main-title {
     text-align: center;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 450;  /* Changed from 550 to 400 */
 }
 
 .card {
@@ -20,6 +41,24 @@
     left: 41%;          /* Moves it to the middle */
 }
 
-body {
-   font-family: system-ui, -apple-system, sans-serif;
+
+/* Fix 2: Apply the font to Labels and Inputs (they don't inherit by default!) */
+label, input {
+    font-family: monospace;
+    font-weight: 500;
 }
+
+/* Fix 3: Style the Placeholder (and fix the "weight" typo) */
+::placeholder {
+    font-size: 11px;
+    font-family: "Quicksand", sans-serif; /* Change this to your desired placeholder font */
+    font-weight: 400; /* You had "weight: bold", which is invalid syntax */
+    color: #888;
+}
+
+/* Fix 4: Fix the button typo */
+button, input[type="button"] {
+    font-size: 11px;
+    font-weight: bold; /* Changed "weight" to "font-weight" */
+}
+
